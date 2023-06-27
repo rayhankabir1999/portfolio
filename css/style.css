@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*navigation bar css start*/
+nav {
+    background-color: rgb(217, 235, 250);
+    padding: 30px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+    width: 180px;
+  }
+
+  .navbar {
+    transition: top 0.3s ease;
+    }
+
+  .navbar.show {
+        top: 0;
+    }
+
+  .nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 2px;
+    transition: all linear 0.2s;
+    border-radius: 5px;
+    color: #555;
+    position: relative;
+  }
+
+  .nav-item .nav-link:hover{
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px 1px grey;
+  }
+  
+  .nav-item .nav-link:before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav-item .nav-link:hover:before {
+    background-color: #555;
+  }
+/*navigation bar css end*/
+
+  
+
+
+/* banner css start*/
+#banner-sec{
+    background-color: aliceblue;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.welcome{
+    color: rgb(252, 7, 109);
+}
+
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.nam{
+    color: rgb(252, 7, 109);
+}
+.my-info{
+    font-size: 16px;
+    color: rgb(70, 68, 68);
+    margin: 25px 0;
+}
+
+.follow-icon{
+    margin: 20px 0;
+}
+
+.follow-icon a{
+    box-shadow: 3px 3px 8px 3px rgb(214, 212, 212);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.follow-icon a:hover{
+    background-color: rgb(194, 227, 241);
+}
+
+.follow-icon .fa{
+    color: rgb(252, 7, 109);
+    font-size: 25px;
+    transition: all linear 0.2s;
+}
+
+.follow-icon .fa:hover{
+    transform: scale(1.3);
+}
+
+.my-img{
+    box-shadow: 3px 3px 10px 3px rgb(214, 212, 212);
+    border-radius: 20px;
+    padding: 0 0 40px 60px;
+    transition: all linear 0.2s;
+}
+
+.my-img:hover{
+    background-color: rgb(222, 241, 250);
+    box-shadow: 0px 2px 15px 10px white;
+}
+
+.my-img img{
+    transform: scale(1.1);
+    transition: all linear 0.2s;
+}
+
+.my-img img:hover{
+    transform: scale(1.2);
+}
+/* banner css end*/
+
+
+
+/* about css start*/
+#about {
+    background-color: aliceblue;
+    padding: 50px 0;
+  }
+  
+  .about-content {
+    box-shadow: 0px 2px 15px 7px rgb(216, 213, 213);
+    padding: 15px;
+    border-radius: 12px;
+    transition: all linear 0.3s;
+  }
+
+  .about-content:hover{
+    background-color: rgb(214, 234, 252);
+  }
+
+  .p1{
+    text-align: center;
+    padding: 20px 200px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .about-content h1 {
+    font-size: 50px;
+    color: #0f0101;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #777;
+  } 
+
+  .my-info{
+    box-shadow: 0px 2px 15px 10px rgb(231, 227, 227);
+    border-radius: 12px;
+    padding: 30px;
+    transition: all linear 0.3s;
+  }
+
+  .my-info:hover{
+    background-color: rgb(214, 234, 252);
+  }
+
+  .my-info:hover span{
+    color: black;
+  }
+
+  .my-info ul li span{
+    color: grey;
+  }
+   
+  .my-info h5{
+    color: rgb(252, 7, 109);
+  }
+/* about css end*/
+
+
+/* service css start*/
+#service-sec{
+    background-color: aliceblue;
+    padding: 50px 0;
+}
+
+.service-header h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#service-sec .ab-card{
+    background-color: aliceblue;
+    box-shadow: 3px 3px 10px 3px rgb(173, 179, 179);
+    padding: 10px;
+    transition: all linear 0.3s;
+}
+
+#service-sec .ab-card:hover{
+    background-color: rgb(252, 7, 109);
+    color: white;
+}
+
+#service-sec .ab-card i{
+    font-size: 30px;
+    color: rgb(252, 7, 109);
+    margin-top: 15px;
+    transition: all linear 0.2s;
+}
+
+#service-sec .ab-card:hover i{
+    color: white;
+}
+
+.card-btn{
+    background-color: rgb(252, 7, 109);
+    color: white;
+}
+
+.card-btn:hover{
+    transform: scale(1.1);
+    transition: all linear 0.2s;
+}
+
+#service-sec .ab-card:hover .card-btn{
+    background-color: white;
+    color: rgb(252, 7, 109);
+}
+/* service css end*/
+
+
+/* project css start*/
+#project-sec{
+    background-color: aliceblue;
+    padding: 50px 0;
+}
+
+#project-sec .project-img{
+    overflow: hidden;
+}
+
+.project-title {
+    margin-bottom: 10px;
+}
+
+.project-title h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.project-title p {
+    color: rgb(252, 7, 109);
+    text-transform: uppercase;
+}
+
+.project-img {
+    position: relative;
+}
+
+.project-img img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+    transform-origin: center center;
+}
+
+.project-img:hover img {
+    transform: scale(1.1);
+}
+
+.image-overlay {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.project-img:hover .image-overlay {
+    opacity: 1;
+}
+
+.overlay-content {
+    text-align: center;
+}
+
+.overlay-content a {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: rgb(252, 7, 109);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+
+.overlay-content a:hover {
+    background-color: #ff529a;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+/* project css end*/
+
+
+/* blog css start*/
+#blog-sec{
+    background-color: aliceblue;
+    padding: 50px 0;
+}
+
+.blog-title{
+    margin-bottom: 10px;
+}
+
+.blog-title h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.blog-title p{
+    color: rgb(252, 7, 109);
+    text-transform: uppercase;
+}
+
+#blog-sec .card{
+    box-shadow: 3px 3px 10px 3px rgb(173, 179, 179);
+    border: none;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+#blog-sec .card-img{
+    transition: all linear 0.2s;
+    opacity: 0.8;
+}
+
+#blog-sec .card-img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#blog-sec .card-body{
+    background-color: aliceblue;
+    transition: all linear 0.4s;
+}
+
+#blog-sec .card-body:hover{
+    background-color: rgb(252, 7, 109);
+    color: white;
+}
+
+#blog-sec .card-body:hover button{
+    background-color: white;
+    color: rgb(252, 7, 109);
+}
+
+#blog-sec .card-body button{
+    background-color: rgb(252, 7, 109);
+    color: white;
+    font-weight: bold;
+    transition: all linear 0.2s;
+}
+
+#blog-sec .card-body button:hover{
+    transform: scale(1.1);
+}
+/* blog css end*/
+
+
+/* contact css start*/
+#contact-sec{
+    background-color: aliceblue;
+    padding: 50px 0;
+}
+
+.contact-title{
+    margin-bottom: 50px;
+}
+
+.contact-title p{
+    color: rgb(252, 7, 109);
+}
+
+.contact-title h1{
+    font-size: 50px;
+}
+
+.contect-me{
+    box-shadow: 3px 3px 10px 3px rgb(173, 179, 179);
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.contect-me img{
+    transition: all linear 0.2s;
+}
+
+.contect-me img:hover{
+    transform: scale(1.2);
+}
+
+#form{
+    box-shadow: 3px 3px 10px 3px rgb(167, 172, 172); 
+    padding: 30px;
+    border-radius: 18px;
+}
+
+.sent-msg{
+    color: rgb(252, 7, 109);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 25px;
+    box-shadow: 3px 3px 8px 3px rgb(148, 155, 155);
+    border-radius: 12px;
+    transition: all linear 0.2s;
+}
+
+.sent-msg:hover{
+    background-color: rgb(252, 7, 109);
+    color: white;
+}
+
+#form input{
+    margin-bottom: 15px;
+    padding: 12px;
+}
+
+.contact-me2{
+    margin-top: 30px;
+}
+
+.contact-me2 .phone{
+    font-weight: bold;
+}
+
+.contact-me2 .phone a{
+    color: black;
+}
+
+.contact-me2 .phone a:hover{
+    color: rgb(252, 7, 109);;
+}
+
+.contact-me2 .mail a{
+    color: black;
+}
+
+.contact-me2 .mail a:hover{
+    color: rgb(252, 7, 109);
+}
+
+.contact-me2 .mail{
+    font-weight: bold;
+}
+/* contact css end*
+
+
+/* footer css start*/
+#footer-sec{
+    background-color: rgb(214, 234, 252);
+    padding: 50px 0;
+}
+
+.footer-info img{
+    height: 100px;
+    width: 80px;
+    box-shadow: 0px 2px 10px 5px rgb(148, 155, 155);
+    border-radius: 60px;
+    background-color: rgb(207, 203, 203);
+    transition: all linear 0.2s;
+}
+
+.footer-info img:hover{
+    transform: scale(1.1);
+}
+/* footer css end*/
+
+
+/* skill css start*/
+#skill-sec{
+    background-color: rgb(214, 234, 252);
+    padding: 50px 0;
+}
+
+#skill-sec .skill-title{
+    padding-bottom: 20px;
+}
+
+#skill-sec .skill-title h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+#skill-sec .skill-title p{
+    color: gray;
+    font-weight: bold;
+    
+}
+
+#skill-sec .progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+
+  .progress-bar {
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .progress-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #4a90e2, #74c6e6, #9ee6b5);
+    opacity: 0.5;
+    animation: progress-animation 2s linear infinite;
+  }
+
+  @keyframes progress-animation {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  .progress-bar::after {
+    content: attr(data-progress);
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 100%;
+    line-height: 20px;
+    color: #000;
+    font-weight: bold;
+    z-index: 1;
+  }
+/* skill css end*/
+
+
+/* bottom to top scroll btn css start */
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(252, 7, 109);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    z-index: 999;
+  }
+  
+  #scrollBtn:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+/* bottom to top scroll btn css start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
